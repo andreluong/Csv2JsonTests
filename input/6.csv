@@ -1,0 +1,6 @@
+name,originCity,originProvinceStateCode,originCountry,destinationCity,destinationProvinceStateCode,destinationCountry
+Zane,Vancouver,BC,Canada,Toronto,ON,Canada
+Emma,Edmonton,AB,Canada,Vancouver,BC,Canada
+Jakey,Seattle,WA,United States of America,Dallas,TX,United States of America
+Samuel,Las Vegas,NV,United States of America,Vancouver,BC,Canada
+Jensen,Atlanta,GA,United States of America,Abbotsford,BC,Canada
