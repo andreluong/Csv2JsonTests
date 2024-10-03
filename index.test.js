@@ -28,7 +28,7 @@ describe('1: Empty File', () => {
         const outputFile = 'output/1a.json'
         const expectedOutputFile = 'expected_output/empty.json'
 
-        await convert(inputFile, outputFile, true, '.');
+        await convert(inputFile, outputFile, true, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -65,7 +65,7 @@ describe('2: Empty header and one record and no characteristics listed in specia
         const outputFile = 'output/2b.json';
         const expectedOutputFile = 'expected_output/empty.json';
 
-        await convert(inputFile, outputFile, false, ';');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -91,7 +91,7 @@ describe('3: Empty header and many records and no characteristics listed in spec
         const outputFile = 'output/3b.json';
         const expectedOutputFile = 'expected_output/3.json';
 
-        await convert(inputFile, outputFile, false, ';');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -117,7 +117,7 @@ describe('4: Populated header and no records', () => {
         const outputFile = 'output/4b.json';
         const expectedOutputFile = 'expected_output/empty.json';
 
-        await convert(inputFile, outputFile, false, ';');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -143,7 +143,7 @@ describe('5: Populated header and one record and no characteristics listed in sp
         const outputFile = 'output/5b.json';
         const expectedOutputFile = 'expected_output/5.json';
 
-        await convert(inputFile, outputFile, false, ';');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -169,7 +169,7 @@ describe('6: Populated header and many records and no characteristics listed in 
         const outputFile = 'output/6b.json';
         const expectedOutputFile = 'expected_output/6.json';
 
-        await convert(inputFile, outputFile, false, '-');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -195,7 +195,7 @@ describe('7: Fields with ints, floats, scientific notation that\’s not valid j
         const outputFile = 'output/7b.json';
         const expectedOutputFile = 'expected_output/7b.json';
 
-        await convert(inputFile, outputFile, false, ':');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -221,7 +221,7 @@ describe('8: Fields with true, false, null that\’s not valid json objects', ()
         const outputFile = 'output/8b.json';
         const expectedOutputFile = 'expected_output/8b.json';
 
-        await convert(inputFile, outputFile, false, '@');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -247,7 +247,7 @@ describe('9: Fields containing escapes (e.g. \\n \\r \\uD834) that\’s not vali
         const outputFile = 'output/9b.json';
         const expectedOutputFile = 'expected_output/9.json';
 
-        await convert(inputFile, outputFile, false, '~');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -256,7 +256,7 @@ describe('9: Fields containing escapes (e.g. \\n \\r \\uD834) that\’s not vali
 });
 
 // Test 10
-describe('10 Fields with newlines (not newline character) that\’s not valid json objects', () => {
+describe('10 Fields with newlines (not newline character \\n) that\’s not valid json objects', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/10a.csv';
         const outputFile = 'output/10a.json';
@@ -273,7 +273,7 @@ describe('10 Fields with newlines (not newline character) that\’s not valid js
         const outputFile = 'output/10b.json'
         const expectedOutputFile = 'expected_output/10.json'
 
-        await convert(inputFile, outputFile, false, '*');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -299,7 +299,7 @@ describe('11: Fields with text containing quotation marks (like in the text not 
         const outputFile = 'output/11b.json'
         const expectedOutputFile = 'expected_output/11.json'
 
-        await convert(inputFile, outputFile, false, '-');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -325,7 +325,7 @@ describe('12: Fields with text containing commas that’s not valid json objects
         const outputFile = 'output/12b.json'
         const expectedOutputFile = 'expected_output/12.json'
 
-        await convert(inputFile, outputFile, false, 'Q');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
@@ -351,7 +351,7 @@ describe('13: Fields with characters that can\’t normally be typed on a keyboa
         const outputFile = 'output/13b.json'
         const expectedOutputFile = 'expected_output/13.json'
 
-        await convert(inputFile, outputFile, false, '6');
+        await convert(inputFile, outputFile, false, '|');
 
         const input = JSON.parse(fs.readFileSync(expectedOutputFile));
         const output = JSON.parse(fs.readFileSync(outputFile));
