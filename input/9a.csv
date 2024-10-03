@@ -1,6 +1,6 @@
 name,originCity,originProvinceStateCode,originCountry,destinationCity,destinationProvinceStateCode,destinationCountry,notes
-Zane,Vancouver,BC,Canada,Toronto,ON,Canada,Trip Details: \r\nStart: Toronto \r\nDestination: Vancouver \r\nTotal Distance: 3355.12 km
-Emma,Edmonton,AB,Canada,Vancouver,BC,Canada,\"Rain is strong!.\"
-Jakey,Seattle,WA,United States of America,Dallas,TX,United States of America,Dallas Museum of Art \n White Rock Lake \n Dallas Mavericks Game \n Deep Ellum
-Samuel,Las Vegas,NV,United States of America,Vancouver,BC,Canada,Make sure to bring gifts for \t Jery \t Gary \t Lisa \t Juan
-Jensen,Atlanta,GA,United States of America,Abbotsford,BC,Canada,Exciting trip across the country! \n \n Plan for delays.
+Zane,Vancouver,BC,Canada,Toronto,ON,Canada,"Trip Details: \r\nStart: Toronto \r\nDestination: Vancouver \r\nTotal Distance: 3355.12 km"
+Emma,Edmonton,AB,Canada,Vancouver,BC,Canada,"\"Rain is strong!.\""
+Jakey,Seattle,WA,United States of America,Dallas,TX,United States of America,"Dallas Museum of Art \n White Rock Lake \n Dallas Mavericks Game \n Deep Ellum"
+Samuel,Las Vegas,NV,United States of America,Vancouver,BC,Canada,"Make sure to bring gifts for \t Jery \t Gary \t Lisa \t Juan"
+Jensen,Atlanta,GA,United States of America,Abbotsford,BC,Canada,"Exciting trip across the country! \n \n Plan for delays."
