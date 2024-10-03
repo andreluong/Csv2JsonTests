@@ -1,0 +1,3 @@
+name,originCity,originProvinceStateCode,originCountry
+"""Bob""","""Atlantis""","""AT""","""Some ocean"""
+"""Wanda""","""Vancouver""","""BC""","""Canada""",

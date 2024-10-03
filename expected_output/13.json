@@ -1,0 +1,13 @@
+[
+{"name":"Zane","originCity":"Vancouver","originProvinceStateCode":"BC","originCountry":"Canada","originDetails":"␀"},
+{"name":"Emma","originCity":"Edmonton","originProvinceStateCode":"AB","originCountry":"Canada","originDetails":"␁ ␄"},
+{"name":"Jakey","originCity":"Seattle","originProvinceStateCode":"WA","originCountry":"United States of America","originDetails":"␂ ␃"},
+{"name":"Samuel","originCity":"Las Vegas","originProvinceStateCode":"NV","originCountry":"United States of America","originDetails":"␅"},
+{"name":"Jensen","originCity":"Atlanta","originProvinceStateCode":"GA","originCountry":"United States of America","originDetails":"␆"},
+{"name":"Bert","originCity":"Winnepeg","originProvinceStateCode":"MA","originCountry":"Canada","originDetails":"␇"},
+{"name":"Perry","originCity":"Richmond","originProvinceStateCode":"BC","originCountry":"Canada","originDetails":" ␈"},
+{"name":"Waltz","originCity":"Yellowknife","originProvinceStateCode":"NT","originCountry":"Canada","originDetails":"␉"},
+{"name":"Fan","originCity":"Minot","originProvinceStateCode":"ND","originCountry":"United States of America","originDetails":"␊"},
+{"name":"Minh","originCity":"Philadelphia","originProvinceStateCode":"PA","originCountry":"United States of America","originDetails":"␋"},
+{"name":"Robin","originCity":"Halifax","originProvinceStateCode":"NS","originCountry":"Canada","originDetails":"␌"}
+]
