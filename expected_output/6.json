@@ -6,14 +6,8 @@
     "originCountry": "Canada",
     "destinationCity": "Toronto",
     "destinationProvinceStateCode": "ON",
-    "destinationCountry": "Canada",
-    "notes": "Trip Details: "
+    "destinationCountry": "Canada"
   },
-  { "name": "Start: Toronto" },
-  {},
-  { "name": "Destination: Vancouver" },
-  {},
-  { "name": "Distance: 3355.12 km" },
   {
     "name": "Emma",
     "originCity": "Edmonton",
@@ -21,10 +15,8 @@
     "originCountry": "Canada",
     "destinationCity": "Vancouver",
     "destinationProvinceStateCode": "BC",
-    "destinationCountry": "Canada",
-    "notes": "Rain will be strong!"
+    "destinationCountry": "Canada"
   },
-  {},
   {
     "name": "Jakey",
     "originCity": "Seattle",
@@ -32,12 +24,17 @@
     "originCountry": "United States of America",
     "destinationCity": "Dallas",
     "destinationProvinceStateCode": "TX",
-    "destinationCountry": "United States of America",
-    "notes": "Dallas Museum of Art "
+    "destinationCountry": "United States of America"
   },
-  { "name": "White Rock Lake " },
-  { "name": "Dallas Mavericks Game " },
-  { "name": "Deep Ellum" },
+  {
+    "name": "Samuel",
+    "originCity": "Las Vegas",
+    "originProvinceStateCode": "NV",
+    "originCountry": "United States of America",
+    "destinationCity": "Vancouver",
+    "destinationProvinceStateCode": "BC",
+    "destinationCountry": "Canada"
+  },
   {
     "name": "Jensen",
     "originCity": "Atlanta",
@@ -45,9 +42,6 @@
     "originCountry": "United States of America",
     "destinationCity": "Abbotsford",
     "destinationProvinceStateCode": "BC",
-    "destinationCountry": "Canada",
-    "notes": ""
-  },
-  { "name": "Exciting trip across the country! " },
-  { "name": "Plan for delays." }
+    "destinationCountry": "Canada"
+  }
 ]

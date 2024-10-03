@@ -1,6 +1,6 @@
 [
-{"Zane,Vancouver,BC,Canada,Toronto,ON,Canada":"Emma,Edmonton,AB,Canada,Vancouver,BC,Canada"},
-{"Zane,Vancouver,BC,Canada,Toronto,ON,Canada":"Jakey,Seattle,WA,United States of America,Dallas,TX,United States of America"},
-{"Zane,Vancouver,BC,Canada,Toronto,ON,Canada":"Samuel,Las Vegas,NV,United States of America,Vancouver,BC,Canada"},
-{"Zane,Vancouver,BC,Canada,Toronto,ON,Canada":"Jensen,Atlanta,GA,United States of America,Abbotsford,BC,Canada"}
+{"Zane":"Emma","Vancouver":"Edmonton","BC":"AB","Canada":"Canada","Toronto":"Vancouver","ON":"BC"},
+{"Zane":"Jakey","Vancouver":"Seattle","BC":"WA","Canada":"United States of America","Toronto":"Dallas","ON":"TX"},
+{"Zane":"Samuel","Vancouver":"Las Vegas","BC":"NV","Canada":"Canada","Toronto":"Vancouver","ON":"BC"},
+{"Zane":"Jensen","Vancouver":"Atlanta","BC":"GA","Canada":"Canada","Toronto":"Abbotsford","ON":"BC"}
 ]

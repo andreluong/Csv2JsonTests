@@ -7,13 +7,11 @@
     "destinationCity": "Toronto",
     "destinationProvinceStateCode": "ON",
     "destinationCountry": "Canada",
-    "notes": "Trip Details: "
+    "distance": 3355.12,
+    "distanceInScientificNotation": 3355.12,
+    "shortestArrival": 37,
+    "longestArrival": 40
   },
-  { "name": "Start: Toronto" },
-  {},
-  { "name": "Destination: Vancouver" },
-  {},
-  { "name": "Distance: 3355.12 km" },
   {
     "name": "Emma",
     "originCity": "Edmonton",
@@ -22,9 +20,11 @@
     "destinationCity": "Vancouver",
     "destinationProvinceStateCode": "BC",
     "destinationCountry": "Canada",
-    "notes": "Rain will be strong!"
+    "distance": 1159.11,
+    "distanceInScientificNotation": 1159.11,
+    "shortestArrival": 12,
+    "longestArrival": 13
   },
-  {},
   {
     "name": "Jakey",
     "originCity": "Seattle",
@@ -33,11 +33,24 @@
     "destinationCity": "Dallas",
     "destinationProvinceStateCode": "TX",
     "destinationCountry": "United States of America",
-    "notes": "Dallas Museum of Art "
+    "distance": 3050.72,
+    "distanceInScientificNotation": 3050.72,
+    "shortestArrival": 30,
+    "longestArrival": 32
   },
-  { "name": "White Rock Lake " },
-  { "name": "Dallas Mavericks Game " },
-  { "name": "Deep Ellum" },
+  {
+    "name": "Samuel",
+    "originCity": "Las Vegas",
+    "originProvinceStateCode": "NV",
+    "originCountry": "United States of America",
+    "destinationCity": "Vancouver",
+    "destinationProvinceStateCode": "BC",
+    "destinationCountry": "Canada",
+    "distance": 1959.49,
+    "distanceInScientificNotation": 1959.49,
+    "shortestArrival": 20,
+    "longestArrival": 22
+  },
   {
     "name": "Jensen",
     "originCity": "Atlanta",
@@ -46,8 +59,9 @@
     "destinationCity": "Abbotsford",
     "destinationProvinceStateCode": "BC",
     "destinationCountry": "Canada",
-    "notes": ""
-  },
-  { "name": "Exciting trip across the country! " },
-  { "name": "Plan for delays." }
+    "distance": 4138.5,
+    "distanceInScientificNotation": 4138.5,
+    "shortestArrival": 41,
+    "longestArrival": 44
+  }
 ]

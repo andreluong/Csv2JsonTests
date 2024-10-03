@@ -1,0 +1,6 @@
+name@originCity@originProvinceStateCode@originCountry@destinationCity@destinationProvinceStateCode@destinationCountry@isInternationalTrip@weatherConditions@isDelayed
+Zane@Vancouver@BC@Canada@Toronto@ON@Canada@false@snowy@null
+Emma@Edmonton@AB@Canada@Vancouver@BC@Canada@false@rainy@false
+Jakey@Seattle@WA@United States of America@Dallas@TX@United States of America@false@null@null
+Samuel@Las Vegas@NV@United States of America@Vancouver@BC@Canada@true@sunny@false
+Jensen@Atlanta@GA@United States of America@Abbotsford@BC@Canada@true@null@true

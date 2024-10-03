@@ -1,0 +1,34 @@
+[
+  {
+    "Zane": "Emma",
+    "Vancouver": "Edmonton",
+    "BC": "AB",
+    "Canada": "Canada",
+    "Toronto": "Vancouver",
+    "ON": "BC"
+  },
+  {
+    "Zane": "Jakey",
+    "Vancouver": "Seattle",
+    "BC": "WA",
+    "Canada": "United States of America",
+    "Toronto": "Dallas",
+    "ON": "TX"
+  },
+  {
+    "Zane": "Samuel",
+    "Vancouver": "Las Vegas",
+    "BC": "NV",
+    "Canada": "Canada",
+    "Toronto": "Vancouver",
+    "ON": "BC"
+  },
+  {
+    "Zane": "Jensen",
+    "Vancouver": "Atlanta",
+    "BC": "GA",
+    "Canada": "Canada",
+    "Toronto": "Abbotsford",
+    "ON": "BC"
+  }
+]
