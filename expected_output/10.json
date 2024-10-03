@@ -7,13 +7,8 @@
     "destinationCity": "Toronto",
     "destinationProvinceStateCode": "ON",
     "destinationCountry": "Canada",
-    "notes": "Trip Details: "
+    "notes": "Trip Details: \r\nStart: Toronto\r\n\r\nDestination: Vancouver\r\n\r\nDistance: 3355.12 km"
   },
-  { "name": "Start: Toronto" },
-  {},
-  { "name": "Destination: Vancouver" },
-  {},
-  { "name": "Distance: 3355.12 km" },
   {
     "name": "Emma",
     "originCity": "Edmonton",
@@ -22,9 +17,8 @@
     "destinationCity": "Vancouver",
     "destinationProvinceStateCode": "BC",
     "destinationCountry": "Canada",
-    "notes": "Rain will be strong!"
+    "notes": "Rain will be strong!\r\n"
   },
-  {},
   {
     "name": "Jakey",
     "originCity": "Seattle",
@@ -33,11 +27,8 @@
     "destinationCity": "Dallas",
     "destinationProvinceStateCode": "TX",
     "destinationCountry": "United States of America",
-    "notes": "Dallas Museum of Art "
+    "notes": "Dallas Museum of Art \r\nWhite Rock Lake \r\nDallas Mavericks Game \r\nDeep Ellum"
   },
-  { "name": "White Rock Lake " },
-  { "name": "Dallas Mavericks Game " },
-  { "name": "Deep Ellum" },
   {
     "name": "Jensen",
     "originCity": "Atlanta",
@@ -46,8 +37,6 @@
     "destinationCity": "Abbotsford",
     "destinationProvinceStateCode": "BC",
     "destinationCountry": "Canada",
-    "notes": ""
-  },
-  { "name": "Exciting trip across the country! " },
-  { "name": "Plan for delays." }
+    "notes": "\r\nExciting trip across the country! \r\nPlan for delays."
+  }
 ]

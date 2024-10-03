@@ -1,0 +1,6 @@
+name,origin,destination
+Zane,"{""city"":""Vancouver"",""provinceStateCode"":""BC"",""country"":""Canada""}","{""city"":""Toronto"",""provinceStateCode"":""ON"",""country"":""Canada""}"
+Emma,"{""city"":""Edmonton"",""provinceStateCode"":""AB"",""country"":""Canada""}","{""city"":""Vancouver"",""provinceStateCode"":""BC"",""country"":""Canada""}"
+Jakey,"{""city"":""Seattle"",""provinceStateCode"":""WA"",""country"":""United States of America""}","{""city"":""Dallas"",""provinceStateCode"":""TX"",""country"":""United States of America""}"
+Samuel,"{""city"":""Las Vegas"",""provinceStateCode"":""NV"",""country"":""United States of America""}","{""city"":""Vancouver"",""provinceStateCode"":""BC"",""country"":""Canada""}"
+Jensen,"{""city"":""Atlanta"",""provinceStateCode"":""GA"",""country"":""United States of America""}","{""city"":""Abbotsford"",""provinceStateCode"":""BC"",""country"":""Canada""}"

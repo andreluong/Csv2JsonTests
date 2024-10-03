@@ -358,3 +358,30 @@ describe('13: Fields with characters that can\’t normally be typed on a keyboa
         expect(input).toEqual(output);
     });
 });
+
+
+// Test 14
+describe('14: Fields with valid json objects', () => {
+    test('A: dynamic_typing = true; separator = comma', async () => {
+        const inputFile = 'input/14a.csv';
+        const outputFile = 'output/14a.json';
+        const expectedOutputFile = 'expected_output/14.json';
+
+        await convert(inputFile, outputFile, true);
+
+        const input = JSON.parse(fs.readFileSync(expectedOutputFile));
+        const output = JSON.parse(fs.readFileSync(outputFile));
+        expect(input).toEqual(output);
+    });
+    test('B: dynamic_typing = false; separator = abs', async () => {
+        const inputFile = 'input/14b.csv'
+        const outputFile = 'output/14b.json'
+        const expectedOutputFile = 'expected_output/14.json'
+
+        await convert(inputFile, outputFile, false, '|');
+
+        const input = JSON.parse(fs.readFileSync(expectedOutputFile));
+        const output = JSON.parse(fs.readFileSync(outputFile));
+        expect(input).toEqual(output);
+    });
+});
