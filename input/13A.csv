@@ -1,12 +1,12 @@
 name,originCity,originProvinceStateCode,originCountry,originDetails
-Zane,Vancouver,BC,Canada,␀
-Emma,Edmonton,AB,Canada,␁ ␄
-Jakey,Seattle,WA,United States of America,␂ ␃
-Samuel,Las Vegas,NV,United States of America,␅
-Jensen,Atlanta,GA,United States of America,␆
-Bert,Winnepeg,MA,Canada,␇
-Perry,Richmond,BC,Canada, ␈
-Waltz,Yellowknife,NT,Canada,␉
-Fan,Minot,ND,United States of America,␊
-Minh,Philadelphia,PA,United States of America,␋
-Robin,Halifax,NS,Canada,␌
+Zane,Vancouver,BC,Canada,deleted
+Emma,Edmonton,AB,Canada,deleted
+Jakey,Seattle,WA,United States of America,deleted
+Samuel,Las Vegas,NV,United States of America,deleted
+Jensen,Atlanta,GA,United States of America,deleted
+Bert,Winnepeg,MA,Canada,moved
+Perry,Richmond,BC,Canada,deleted
+Waltz,Yellowknife,NT,Canada,deleted�
+Fan,Minot,ND,United States of America,deleted
+Minh,Philadelphia,PA,United States of America,deleted
+Robin,Halifax,NS,Canada,deleted

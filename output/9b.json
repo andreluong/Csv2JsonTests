@@ -1,0 +1,7 @@
+[
+{"name":"Zane","originCity":"Vancouver","originProvinceStateCode":"BC","originCountry":"Canada","destinationCity":"Toronto","destinationProvinceStateCode":"ON","destinationCountry":"Canada","notes":"Trip Details: \\r\\nStart: Toronto \\r\\nDestination: Vancouver \\r\\nTotal Distance: 3355.12 km"},
+{"name":"Emma","originCity":"Edmonton","originProvinceStateCode":"AB","originCountry":"Canada","destinationCity":"Vancouver","destinationProvinceStateCode":"BC","destinationCountry":"Canada","notes":"\\\"Rain is strong!.\\\""},
+{"name":"Jakey","originCity":"Seattle","originProvinceStateCode":"WA","originCountry":"United States of America","destinationCity":"Dallas","destinationProvinceStateCode":"TX","destinationCountry":"United States of America","notes":"Dallas Museum of Art \\n White Rock Lake \\n Dallas Mavericks Game \\n Deep Ellum"},
+{"name":"Samuel","originCity":"Las Vegas","originProvinceStateCode":"NV","originCountry":"United States of America","destinationCity":"Vancouver","destinationProvinceStateCode":"BC","destinationCountry":"Canada","notes":"Make sure to bring gifts for \\t Jery \\t Gary \\t Lisa \\t Juan"},
+{"name":"Jensen","originCity":"Atlanta","originProvinceStateCode":"GA","originCountry":"United States of America","destinationCity":"Abbotsford","destinationProvinceStateCode":"BC","destinationCountry":"Canada","notes":"Exciting trip across the country! \\n \\n Plan for delays."}
+]
