@@ -22,7 +22,7 @@ beforeAll(() => {
 })
 
 // Test 1
-describe('1: Empty File', () => {
+describe('1: CSV file with no content (no header and no records)', () => {
     test('A: dynamic_typing = true; separator = abs', async () => {
         const inputFile = 'input/1a.csv'
         const outputFile = 'output/1a.json'
@@ -48,7 +48,7 @@ describe('1: Empty File', () => {
 });
 
 // Test 2
-describe('2: Empty header and one record and no characteristics listed in special character constraints', () => {
+describe('2: CSV file with one record, no header, and do not contain any listed CSV field features', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/2a.csv';
         const outputFile = 'output/2a.json';
@@ -74,7 +74,7 @@ describe('2: Empty header and one record and no characteristics listed in specia
 });
 
 // Test 3
-describe('3: Empty header and many records and no characteristics listed in special character constraints', () => {
+describe('3: CSV file with more than one records, no header, and do not contain any listed CSV field features', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/3a.csv';
         const outputFile = 'output/3a.json';
@@ -100,7 +100,7 @@ describe('3: Empty header and many records and no characteristics listed in spec
 });
 
 // Test 4
-describe('4: Populated header and no records', () => {
+describe('4: CSV file with a header, no records, and do not contain any listed CSV field features', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/4a.csv';
         const outputFile = 'output/4a.json';
@@ -126,7 +126,7 @@ describe('4: Populated header and no records', () => {
 });
 
 // Test 5
-describe('5: Populated header and one record and no characteristics listed in special character constraints', () => {
+describe('5: CSV file with a header, one records, and do not contain any listed CSV field features', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/5a.csv';
         const outputFile = 'output/5a.json';
@@ -152,7 +152,7 @@ describe('5: Populated header and one record and no characteristics listed in sp
 });
 
 // Test 6
-describe('6: Populated header and many records and no characteristics listed in special character constraints', () => {
+describe('6: CSV file with a header, more than one records, and do not contain any listed CSV field features', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/6a.csv';
         const outputFile = 'output/6a.json';
@@ -178,7 +178,7 @@ describe('6: Populated header and many records and no characteristics listed in 
 });
 
 // Test 7
-describe('7: Fields with ints, floats, scientific notation that\’s not valid json objects', () => {
+describe('7: CSV file with only fields that are valid JSON numbers', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/7a.csv';
         const outputFile = 'output/7a.json';
@@ -204,7 +204,7 @@ describe('7: Fields with ints, floats, scientific notation that\’s not valid j
 });
 
 // Test 8
-describe('8: Fields with true, false, null that\’s not valid json objects', () => {
+describe('8: CSV file with only fields that are valid JSON literals', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/8a.csv';
         const outputFile = 'output/8a.json';
@@ -230,7 +230,7 @@ describe('8: Fields with true, false, null that\’s not valid json objects', ()
 });
 
 // Test 9
-describe('9: Fields containing escapes (e.g. \\n \\r \\uD834) that\’s not valid json objects', () => {
+describe('9: CSV file with only fields containing JSON escapes (ie %x5c followed by %x6E)', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/9a.csv';
         const outputFile = 'output/9a.json';
@@ -256,7 +256,7 @@ describe('9: Fields containing escapes (e.g. \\n \\r \\uD834) that\’s not vali
 });
 
 // Test 10
-describe('10 Fields with newlines (not newline character \\n) that\’s not valid json objects', () => {
+describe('10: CSV file with only fields containing the newline character (%x0A)', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/10a.csv';
         const outputFile = 'output/10a.json';
@@ -282,7 +282,7 @@ describe('10 Fields with newlines (not newline character \\n) that\’s not vali
 });
 
 // Test 11
-describe('11: Fields with text containing quotation marks (like in the text not incased) that\’s not valid json objects', () => {
+describe('11: CSV file with only fields containing quotation marks (%x22)', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/11a.csv';
         const outputFile = 'output/11a.json';
@@ -308,7 +308,7 @@ describe('11: Fields with text containing quotation marks (like in the text not 
 });
 
 // Test 12
-describe('12: Fields with text containing commas that’s not valid json objects', () => {
+describe('12: CSV file with only fields containing commas (%x2C)', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/12a.csv';
         const outputFile = 'output/12a.json';
@@ -334,7 +334,7 @@ describe('12: Fields with text containing commas that’s not valid json objects
 });
 
 // Test 13
-describe('13: Fields with characters that can\’t normally be typed on a keyboard (e.g. control characters)', () => {
+describe('13: CSV file with only fields containing control characters (%x00 to %x1F except %x09 and %x0A)', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/13a.csv';
         const outputFile = 'output/13a.json';
@@ -361,7 +361,7 @@ describe('13: Fields with characters that can\’t normally be typed on a keyboa
 
 
 // Test 14
-describe('14: Fields with valid json objects', () => {
+describe('14: CSV file with only fields that contain valid JSON objects with key value pairs', () => {
     test('A: dynamic_typing = true; separator = comma', async () => {
         const inputFile = 'input/14a.csv';
         const outputFile = 'output/14a.json';
