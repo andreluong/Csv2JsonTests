@@ -53,6 +53,14 @@
       <basechoices />
       <invalidValues />
     </Parameter>
+    <Parameter id="8" name="tab_separator" type="2">
+      <values>
+        <value>true</value>
+        <value>false</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
   </Parameters>
   <OutputParameters />
   <Relations />
@@ -67,6 +75,11 @@
         <Parameter name="outputspecifiedexists" />
       </Parameters>
     </Constraint>
+    <Constraint text="tab_separator=false">
+      <Parameters>
+        <Parameter name="tab_separator" />
+      </Parameters>
+    </Constraint>
   </Constraints>
   <Testset doi="2">
     <Testcase TCNo="0">
@@ -76,6 +89,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="1">
       <Value>2</Value>
@@ -84,6 +98,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="2">
       <Value>3</Value>
@@ -92,6 +107,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="3">
       <Value>4</Value>
@@ -100,6 +116,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="4">
       <Value>5</Value>
@@ -108,6 +125,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="5">
       <Value>6</Value>
@@ -116,6 +134,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="6">
       <Value>7</Value>
@@ -124,6 +143,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="7">
       <Value>8</Value>
@@ -132,6 +152,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="8">
       <Value>9</Value>
@@ -140,6 +161,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="9">
       <Value>10</Value>
@@ -148,6 +170,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="10">
       <Value>11</Value>
@@ -156,6 +179,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="11">
       <Value>12</Value>
@@ -164,6 +188,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="12">
       <Value>13</Value>
@@ -172,6 +197,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="13">
       <Value>14</Value>
@@ -180,6 +206,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="14">
       <Value>15</Value>
@@ -188,6 +215,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="15">
       <Value>16</Value>
@@ -196,6 +224,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="16">
       <Value>17</Value>
@@ -204,6 +233,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="17">
       <Value>18</Value>
@@ -212,6 +242,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="18">
       <Value>19</Value>
@@ -220,6 +251,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="19">
       <Value>20</Value>
@@ -228,6 +260,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="20">
       <Value>21</Value>
@@ -236,6 +269,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="21">
       <Value>22</Value>
@@ -244,6 +278,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="22">
       <Value>23</Value>
@@ -252,6 +287,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="23">
       <Value>24</Value>
@@ -260,6 +296,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="24">
       <Value>25</Value>
@@ -268,6 +305,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="25">
       <Value>26</Value>
@@ -276,6 +314,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="26">
       <Value>27</Value>
@@ -284,6 +323,7 @@
       <Value>comma</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
     <Testcase TCNo="27">
       <Value>28</Value>
@@ -292,6 +332,7 @@
       <Value>abs</Value>
       <Value>true</Value>
       <Value>true</Value>
+      <Value>false</Value>
     </Testcase>
   </Testset>
   <Header>
@@ -301,12 +342,13 @@
     <Value>SEPARATOR</Value>
     <Value>INPUTSPECIFIEDEXISTS</Value>
     <Value>OUTPUTSPECIFIEDEXISTS</Value>
+    <Value>TAB_SEPARATOR</Value>
   </Header>
   <Stat-Data>
-    <ExecutionTime>0.05</ExecutionTime>
+    <ExecutionTime>0.032</ExecutionTime>
     <MaxDomainSize>14</MaxDomainSize>
     <MinDomainSize>2</MinDomainSize>
-    <TotalNoOfCombination>97</TotalNoOfCombination>
+    <TotalNoOfCombination>117</TotalNoOfCombination>
     <TotalNoOfTests>28</TotalNoOfTests>
     <Algorithm>IPOG</Algorithm>
   </Stat-Data>
